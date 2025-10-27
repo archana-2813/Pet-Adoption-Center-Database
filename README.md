@@ -56,6 +56,20 @@ Developed in **SQL Server 2012**, the project demonstrates advanced database des
   SELECT * FROM AvailableAnimals;
 
 
+Displays all adoptable pets under 5 years with vaccine details.
+
+Pending Applications View
+
+SELECT * FROM PendingApplications;
+
+
+Lists pending adoption applications submitted within 30 days.
+
+Stored Procedure
+
+EXEC usp_UpdateAdoptionStatus @AnimalID = 1, @NewStatus = 'Adopted';
+
+
 Key Learning Outcomes:
 
 Database design using ER modeling and relational integrity
